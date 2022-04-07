@@ -1,35 +1,34 @@
 body {
   margin: 0;
   text-align:center;
+  font-family: "Merriweather", sans-serif;
 }
 
-/* div {
-  background-color: #6FB2D2;
-}
-*/
 
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
+  margin: 50 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color:#66BFBF;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
 }
 
 .top-container {
-  background-color: #6FB2D2;
+  background-color: #BFFFF0;
   position: relative;
   padding-top:100px;
-}
-
-.middle-container {
-  background-color: #9254C8;
-  height: 200px;
-  width: 200px;
-}
-
-.bottom-container {
-  background-color: #FF85B3;
-  height: 200px;
-  width: 200px;
-  left: 300px;
-  bottom: 300px;
 }
 
 .bottom-cloud{
@@ -37,7 +36,7 @@ h1 {
 
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
