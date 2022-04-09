@@ -25,6 +25,10 @@ h3 {
   color: #11999E;
 }
 
+.personal-pic {
+  width: 15.625rem;
+}
+
 .top-container {
   background-color: #BFFFF0;
   position: relative;
