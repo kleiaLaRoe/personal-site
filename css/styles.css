@@ -1,7 +1,3 @@
-#title {
-  background-color: #BEE;
-}
-
 body {
   margin: 0;
   text-align:center;
@@ -52,6 +48,14 @@ a {
 a:hover {
   color: #EAF6F6;
 }
+
+/* Headings */
+
+/* Title */
+#title {
+  background-color: #BEE;
+}
+
 /* Containers */
 
 .container-fluid {
@@ -111,15 +115,24 @@ a:hover {
 
 .professional-image {
   width: 15rem;
-  margin: auto;
+  margin: 75px;
   padding-bottom: 3%;
 }
 
 /* Introduction */
 .intro {
-  text-align: center;
+  text-align: left;
+  margin: auto;
 }
 
+.intro-header {
+  text-align: left;
+}
+
+.intro-text {
+  text-align: left;
+  margin-right: 15rem;
+}
 /* Education */
 
 /* Experience */
