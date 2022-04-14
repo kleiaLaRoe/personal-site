@@ -2,12 +2,13 @@ body {
   margin: 0;
   text-align:center;
   font-family: "Merriweather", sans-serif;
+  background-color: #CFDAC8;
   color: #40514E;
 }
 
 
 h1 {
-  color: #66BFBF;
+  color: #E8EAE6;
   margin: 50 auto 0 auto;
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
@@ -18,13 +19,13 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  color:#66BFBF;
+  color:#E8EAE6;
   padding-bottom: 3%;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #11999E;
+  color: #E8EAE6;
 }
 
 hr {
@@ -39,10 +40,10 @@ p {
 }
 
 a {
-  color: #11999E;
+  /* color: #E8EAE6;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
-  text-decoration: none;
+  text-decoration: none; */
 }
 
 a:hover {
@@ -53,7 +54,7 @@ a:hover {
 
 /* Title */
 #title {
-  background-color: #BEE;
+  background-color: #7C9473;
 }
 
 /* Containers */
@@ -63,7 +64,6 @@ a:hover {
 }
 
 .top-container {
-  background-color: #BEE;
   position: relative;
   padding-top:100px;
 }
@@ -73,28 +73,11 @@ a:hover {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #7C9473;
   padding: 50px 0 20px;
 }
 
 /* Header */
-
-.intro {
-  width: 30%;
-  margin: auto;
-}
-
-.bottom-cloud{
-  position:absolute;
-  margin: auto 0;
-  left: 250px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
 
 /* Navbar */
 .navbar {
@@ -117,21 +100,39 @@ a:hover {
   width: 15rem;
   margin: 75px;
   padding-bottom: 3%;
+  float: right;
 }
 
 /* Introduction */
 .intro {
   text-align: left;
-  margin: auto;
+  width: 30%;
 }
 
 .intro-header {
-  text-align: left;
+  text-align: center;
 }
 
 .intro-text {
-  text-align: left;
-  margin-right: 15rem;
+  text-align: justify;
+  padding: 7% 15%;
+}
+
+@media (max-width:990px) {
+  .intro-header {
+    text-align: center;
+  }
+  .intro-text {
+    text-align: center;
+    margin: 0px 0px 15px;
+    line-height: 1.3;
+    padding: 7% 15%;
+  }
+}
+
+.intro-links {
+  text-decoration: none;
+  color: #FFF;
 }
 /* Education */
 
