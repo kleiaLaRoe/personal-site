@@ -1,5 +1,5 @@
 #title {
-  background-color: #EAF6F6;
+  background-color: #BEE;
 }
 
 body {
@@ -23,7 +23,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: normal;
   color:#66BFBF;
-  padding-bottom: 10px;
+  padding-bottom: 3%;
 }
 
 h3 {
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .top-container {
-  background-color: #EAF6F6;
+  background-color: #BEE;
   position: relative;
   padding-top:100px;
 }
@@ -113,6 +113,11 @@ a:hover {
   width: 15rem;
   margin: auto;
   padding-bottom: 3%;
+}
+
+/* Introduction */
+.intro {
+  text-align: center;
 }
 
 /* Education */
