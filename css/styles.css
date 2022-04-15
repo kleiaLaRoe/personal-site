@@ -12,10 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
 }
 
-h2 {
+.body-header {
+  color:#40514E;
   font-size: 2.5rem;
   font-weight: normal;
-  color:#40514E;
   padding-bottom: 3%;
 }
 
@@ -47,6 +47,7 @@ h2 {
 .opening-text {
   font-size: 1.25rem;
   padding: 0% 15% 7%;
+  color:#E8EAE6;
 }
 
 /* Navbar */
@@ -90,10 +91,6 @@ h2 {
 .intro {
   text-align: left;
   width: 30%;
-}
-
-.intro-header {
-  text-align: center;
 }
 
 .intro-text {
