@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-text {
   text-align: justify;
+  font-size: 1rem;
 }
 
 @media (max-width:1000px) {
@@ -110,6 +111,18 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: #FFF;
 }
+
+.skill-item {
+  position: relative;
+  list-style: none;
+}
+
+.skill-item::before{
+  content: '▶';
+  position: absolute;
+  left: 0;
+}
+
 /* Education */
 .card-header {
   background-color: #7C9473;
