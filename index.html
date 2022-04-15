@@ -24,8 +24,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 
   <!-- Style sheets -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-  rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -41,8 +40,7 @@
           <img src="images/favicon-32x32.png" alt="">
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -74,7 +72,7 @@
     <div class="top-container">
       <h3> Hi, I'm</h3>
       <h1>Kleia LaRoe</h1>
-      <h2>I'm a software engineer
+      <h2 class="opening-text">I'm a software engineer
         I am currently a back-end developer that supports and improves the quality
         of life and business for Agents and Underwriters.</h2>
 
@@ -82,126 +80,147 @@
 
   </section>
 
-  <section id="">
-    <div class="middle-container">
+  <section id="intro">
 
-      <div class="profile">
-        <div class="row">
-          <div class="col-lg-6">
-            <img class="professional-image" src="images/professionalImage.png" alt="">
-          </div>
-          <div class="col-lg-6">
-            <h2 class="intro-header">Hello.</h2>
-            <span class="intro container-fluid">
-              <p class="intro-text"> Hello! My name is Kleia and I enjoy facing new challenges
-                and learning about new systems. My interest in engineering started with
-                competing in
-                <a href="https://www.firstlegoleague.org/" class="intro-links">First LEGO League</a>,
-                and since then I had a passion for learning and probleming solving.
-                It would not be until attending university that I would find my
-                love and passion for coding.
-              </p>
-              <p class="intro-text">
-                Today, I have had experience
-                <a href="https://engineering.missouri.edu/departments/eecs/eecs-research/" class="intro-links">researching for the US military</a>
-                and working for a 
-                <a href="https://www.shelterinsurance.com/" class="intro-links">large insurance company</a>.
-                Currently, I work in an Agile environment to collaborate, educate,
-                and learn from other teams, my product owner, scrum master,
-                and business stakeholders to improve business and quality of life
-                for agents, customers, and underwriters.
-              </p>
-            </span>
-          </div>
-
+  <div class="container">
+    <div class="profile">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="professional-image" src="images/professionalImage.png" alt="">
         </div>
+        <div class="col-lg-6">
+          <h2 class="intro-header">Hello.</h2>
+          <span class="intro container-fluid">
+            <span class="intro-text">Hello! My name is Kleia and I enjoy facing new challenges
+              and learning about new systems. My interest in engineering started with
+              competing in
+              <a href="https://www.firstlegoleague.org/" class="intro-links">First LEGO League</a>,
+              and since then I had a passion for learning and probleming solving.
+              It would not be until attending university that I would find my
+              love and passion for coding.
+            </span>
+            <span class="intro-text">Today, I have had experience
+              <a href="https://engineering.missouri.edu/departments/eecs/eecs-research/" class="intro-links">researching for the US military</a>
+              and working for a
+              <a href="https://www.shelterinsurance.com/" class="intro-links">large insurance company</a>.
+              Currently, I work in an Agile environment to collaborate, educate,
+              and learn from other teams, my product owner, scrum master,
+              and business stakeholders to improve business and quality of life
+              for agents, customers, and underwriters.
+            </span>
+          </span>
+        </div>
+
       </div>
+    </div>
+  </div>
+  </section>
 
-      <hr>
+  <hr>
+  <section id="experience">
+    <!-- Insert Carousel Here -->
 
-      <div id="experience">
-        <!-- Insert Carousel Here -->
-        <!-- 1st Carousel -->
-        <p>
+    <!-- 1st Carousel -->
+    <div class="container">
+    <div class="list-group list-experience">
+      <a class="list-group-item list-group-item-action" href="#list-item-1">Shelter Insurance</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">Univeristy of Missouri</a>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#list-experience" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      <h4 id="list-item-1">Shelter Insurance</h4>
         <p>Mar 2019 – Present Shelter Insurance</p>
         <p>Software Engineer</p>
         <p>Implement high quality code in an agile, test-driven development environment using automation and best practices</p>
         <p>Work with cross-functional agile teams to collaborate, educate, and learn from Product Owners, Scrum Masters, Business Stakeholders, and other teams.</p>
-
-        </p>
-        <!-- 2nd Carousel -->
-        <p>
+      <h4 id="list-item-2">Univeristy of Missouri</h4>
         <p>June 2016 – Aug 2018 University of Missouri—Columbia</p>
         <p>Research Assistant</p>
         <p>Analyzed 3-dimensional data to extract features, train and test models, and give a baseline of accuracy to compare against.</p>
         <p>Presented results and findings on a weekly and semesterly basis.</p>
+    </div>
+
+    </div>
+
+    <hr>
+  </section>
+  <section id="skills">
+    <h2>My Skills.</h2>
+    <!-- Insert Carousel Here -->
+    <!-- 1st Carousel -->
+    <div class="container">
+      <div class="skill-row">
+        <img class="computer-img" src="images/computerCircle.png" alt="">
+        <h3>Technical Skills</h3>
+        <p class="code-skill-description">
+
         </p>
-
       </div>
+      <!-- 2nd Carousel -->
+      <div class="skill-row">
+        <img class="chili-img" src="images/chillies.png" alt="">
+        <h3>Interpersonal Skills</h3>
+        <p class="food-skill-description">
 
-      <hr>
-
-      <div id="skills">
-        <h2>My Skills.</h2>
-        <!-- Insert Carousel Here -->
-        <!-- 1st Carousel -->
-        <div class="skill-row">
-          <img class="computer-img" src="images/computerCircle.png" alt="">
-          <h3>Technical Skills</h3>
-          <p class="code-skill-description">
-
-          </p>
-        </div>
-        <!-- 2nd Carousel -->
-        <div class="skill-row">
-          <img class="chili-img" src="images/chillies.png" alt="">
-          <h3>Interpersonal Skills</h3>
-          <p class="food-skill-description">
-
-          </p>
-        </div>
-
+        </p>
       </div>
+    </div>
+  </section>
 
-      <hr>
+  <hr>
+  <section id="education">
+    <!-- Insert Carousel Here -->
+    <h2>My Education.</h2>
 
-      <div id="education">
-        <!-- Insert Carousel Here -->
-        <h2>My Education.</h2>
-
-        <!-- 1st Carousel -->
-        <span>
-          <p>Master of Science, Computer Engineering December 2018</p>
+    <!-- 1st Carousel -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col-lg-6 col-md-6 pricing-col">
+        <div class="card h-100">
+          <div class="card-header">
+            <h3 class="price-title">Master of Science, Comupter Engineering</h3>
+          </div>
+          <div class="card-body">
           <p>Department of Electrical Engineering and Computer Science</p>
           <p>University of Missouri—Columbia, College of Engineering</p>
-          <p>Thesis: Detecting explosive hazards in 3D radar imaging through clustering and sequential learning</p>
-        </span>
-
-        <!-- 2nd Carousel -->
-        <span>
-          <p>Bachelor of Science, Electrical and Computer Engineering December 2016</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 pricing-col">
+        <div class="card h-100">
+          <div class="card-header">
+            <h3 class="price-title">Bachelor of Science, Electrical and Comupter Engineering</h3>
+          </div>
+          <div class="card-body">
           <p>Department of Electrical Engineering and Computer Science</p>
           <p>University of Missouri—Columbia, College of Engineering</p>
           <p>Minors: Computer Science and Mathematic</p>
-        </span>
-      </div>
-
-      <hr>
-
-      <div id="projects">
-        <!-- Insert Carousel Here -->
-        <h2>My Projects.</h2>
-      </div>
-
-      <hr>
-
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <a class="btn email-link" href="mailto:kleiaashling@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
+
+    <!-- 2nd Carousel -->
+    <span>
+      <p>Bachelor of Science, Electrical and Computer Engineering December 2016</p>
+    </span>
   </section>
+
+  <hr>
+  <section id="projects">
+    <div id="projects">
+      <!-- Insert Carousel Here? -->
+      <h2>My Projects.</h2>
+    </div>
+  </section>
+
+  <hr>
+
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <a class="btn email-link" href="mailto:kleiaashling@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
+  </div>
 
   <section id="footer">
     <!-- Footer -->
@@ -209,7 +228,7 @@
       <a class="footer-link" href="https://www.linkedin.com/in/kleia-laroe/">LinkedIn</a>
       <a class="footer-link" href="https://github.com/kleiaLaRoe">Github</a>
       <p class="created-by">Created by: Kleia LaRoe.</p>
-      <p class="last-updated">Last Upated on: Apr. 13, 2022</p>
+      <p class="last-updated">Last Upated on: Apr. 14, 2022</p>
     </div>
 
   </section>
