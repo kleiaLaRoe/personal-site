@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 .skill-item {
   position: relative;
   list-style: none;
+  font-size: 1rem;
 }
 
 .skill-item::before{
@@ -126,6 +127,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Education */
 .card-header {
   background-color: #7C9473;
+}
+
+.card-body {
+  font-size: 1rem;
 }
 
 .education-header {
