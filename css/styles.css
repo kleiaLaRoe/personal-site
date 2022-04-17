@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .opening-text {
   font-size: 1.25rem;
-  padding: 0% 15% 7%;
+  padding: 0 15% 7%;
   color:#E8EAE6;
 }
 
@@ -62,8 +62,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
   font-family: 'Montserrat';
   font-size: 1.25rem;
-  padding: auto 1.25rem;
-  /* padding-right: 1.25rem; */
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 /* Professional Image */
 
@@ -151,6 +151,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Projects */
+.sARS-coV2-image {
+  width: 18.75rem;
+  position: relative;
+}
+
+.slide-header {
+ position: relative;
+ color: #000;
+}
 
 /* Skills */
 .computer-img {
@@ -185,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 .copyright {
   color: #EAF6F6;
   font-size: 75%;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 
 .footer-link {
