@@ -75,8 +75,8 @@
       <h3 class="opening-line"> Hi, I'm</h3>
       <h1 class="name">Kleia LaRoe</h1>
       <h2 class="opening-text">I'm a software engineer that is currently a back-end
-         developer. I support and improve the core page used by Agents and Underwriters
-         for Shelter Insurance.</h2>
+        developer. I support and improve the core page used by Agents and Underwriters
+        for Shelter Insurance.</h2>
 
     </div>
 
@@ -84,14 +84,14 @@
 
   <section id="intro">
 
-  <div class="container-fluid container-intro">
-    <div class="profile">
-      <div class="row">
-        <div class="col-lg-6">
-          <img class="professional-image" src="images/professionalImage.png" alt="">
-        </div>
-        <div class="col-lg-6">
-          <h2 class="body-header">Welcome!</h2>
+    <div class="container-fluid container-intro">
+      <div class="profile">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="professional-image" src="images/professionalImage.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="body-header">Welcome!</h2>
             <p class="intro-text">Hello! My name is Kleia and I enjoy facing new challenges
               and learning about new systems. My interest in engineering started with
               competing in
@@ -101,8 +101,7 @@
               love and passion for coding.
             </p>
             <p class="intro-text">Today, I have had experience
-              <a href="https://engineering.missouri.edu/departments/eecs/eecs-research/"
-                class="intro-links">
+              <a href="https://engineering.missouri.edu/departments/eecs/eecs-research/" class="intro-links">
                 researching computational intelligence and machine learning
               </a>
               and working for a
@@ -114,30 +113,31 @@
             </p>
             <p>
               I have recently had experience with the following technologies:
-              <ul>
-                <div class="row">
+            <ul>
+              <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                    <li class="skill-item">Java</li>
-                    <li class="skill-item">JavaScript</li>
-                    <li class="skill-item">SQL</li>
+                  <li class="skill-item">Java</li>
+                  <li class="skill-item">JavaScript</li>
+                  <li class="skill-item">SQL</li>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                    <li class="skill-item">Bootstrap</li>
-                    <li class="skill-item">HTML</li>
-                    <li class="skill-item">Python</li>
+                  <li class="skill-item">Bootstrap</li>
+                  <li class="skill-item">HTML</li>
+                  <li class="skill-item">Python</li>
                 </div>
               </div>
-              </ul>
+            </ul>
             </p>
-        </div>
+          </div>
 
+        </div>
       </div>
     </div>
-  </div>
   </section>
 
   <section id="experience">
-    <!-- Insert Carousel Here -->
+    <!-- Insert Cards Here -->
+    <!-- Try implementing nested navbar here -->
 
     <div class="container-fluid">
       <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -171,6 +171,8 @@
     </div>
 
   </section>
+
+  <!-- Unsure that skilles are needed here -->
   <!-- <section id="skills">
     <h2 class="body-header">My Skills.</h2>
     <div class="container-fluid">
@@ -192,32 +194,33 @@
   </section> -->
 
   <section id="education">
-    <!-- Insert Carousel Here -->
+    <!-- Insert Cards Here -->
     <h2 class="body-header">My Education.</h2>
 
-    <!-- 1st Carousel -->
     <div class="container-fluid">
       <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- 1st Card -->
         <div class="col-lg-6 col-md-6 education-col">
           <div class="card h-100">
             <div class="card-header">
               <h3 class="education-header">Master of Science, Comupter Engineering</h3>
             </div>
             <div class="card-body">
-            <p>Department of Electrical Engineering and Computer Science</p>
-            <p>University of Missouri—Columbia, College of Engineering</p>
+              <p>Department of Electrical Engineering and Computer Science</p>
+              <p>University of Missouri—Columbia, College of Engineering</p>
             </div>
           </div>
         </div>
+        <!-- 2nd Card -->
         <div class="col-lg-6 col-md-6 education-col">
           <div class="card h-100">
             <div class="card-header">
               <h3 class="education-header">Bachelor of Science, Electrical and Comupter Engineering</h3>
             </div>
             <div class="card-body">
-            <p>Department of Electrical Engineering and Computer Science</p>
-            <p>University of Missouri—Columbia, College of Engineering</p>
-            <p>Minors: Computer Science and Mathematic</p>
+              <p>Department of Electrical Engineering and Computer Science</p>
+              <p>University of Missouri—Columbia, College of Engineering</p>
+              <p>Minors: Computer Science and Mathematic</p>
             </div>
           </div>
         </div>
@@ -226,9 +229,49 @@
   </section>
 
   <section id="projects">
-      <!-- Insert Carousel Here? -->
+    <!-- Insert Carousel Here? -->
     <div class="container-fluid">
       <h2 class="body-header">My Projects.</h2>
+
+      <div id="projects-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Comparing the rates of COVID-19 </h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Detecting Volcanoes on Venus</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bird Identifier</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </div>
 
     <div class="container-fluid">
@@ -238,7 +281,7 @@
       </div>
     </div>
 
-</section>
+  </section>
 
   <section id="footer">
     <!-- Footer -->
@@ -246,7 +289,7 @@
       <a class="fa-brands fa-linkedin fa-xl footer-link" href="https://www.linkedin.com/in/kleia-laroe/"></a>
       <a class="fa-brands fa-github-square fa-xl footer-link" href="https://github.com/kleiaLaRoe"></a>
       <p class="created-by">Created by: Kleia LaRoe.</p>
-      <p class="last-updated">Last Upated on: Apr. 15, 2022</p>
+      <p class="last-updated">Last Upated on: Apr. 17, 2022</p>
     </div>
 
   </section>
