@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#40514E;
   font-size: 2.5rem;
   font-weight: normal;
-  padding-bottom: 3%;
+  padding-top: 3%;
 }
 
 /* Title */
@@ -151,38 +151,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Projects */
-.sARS-coV2-image {
-  width: 18.75rem;
-  position: relative;
+
+.project-summary {
+  text-align: justify;
 }
 
-.slide-header {
- position: relative;
- color: #000;
-}
-
-/* Skills */
-.computer-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.chili-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
-.skill-row {
-  width: 50%;
-  position: relative;
-  margin: 100px auto;
-  text-align: left;
-}
-
-.skill-header {
-  color: #40514E;
+.project-link {
+  text-decoration: none;
+  color: #7C9473;
 }
 
 /* Footer */

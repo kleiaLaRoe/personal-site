@@ -138,7 +138,7 @@
   <section id="experience">
     <!-- Insert Cards Here -->
     <!-- Try implementing nested navbar here -->
-
+  <h2 class="body-header">My Experience</h2>
     <div class="container-fluid">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-lg-6 col-md-6 education-col">
@@ -230,49 +230,26 @@
 
   <section id="projects">
     <!-- Insert Carousel Here? -->
-    <div class="container-fluid">
-      <h2 class="body-header">My Projects.</h2>
-
-      <div id="projects-carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <!-- https://github.com/kleiaLaRoe/projects/blob/master/python/patternRecognition/COVID19/COVID19Data.ipynb -->
-            <img src="images/numberOfNewCases.png" class="d-block w-100 sARS-coV2-image" alt="Observing the rates of SARS-CoV2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="slide-header">Comparing the rates of COVID-19 </h5>
-              <p>Some representative placeholder content for the first slide.</p>
+    <h2 class="body-header">My Projects</h2>
+    <div class="container-fluid project-container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- 1st Card -->
+        <div class="col-lg-4 col-md-6 education-col offset-lg-4">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3 class="education-header">Studying SARS-CoV2</h3>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/numberOfNewCases.png" class="d-block w-100 sARS-coV2-image" alt="Number of New Cases of SARS-CoV-2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="slide-header">Detecting Volcanoes on Venus</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/numberOfNewCases.png" class="d-block w-100 sARS-coV2-image" alt="Number of New Cases of SARS-CoV-2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="slide-header">Bird Identifier</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+            <div class="card-body">
+              <p class="project-summary">During the rise of COVID-19 a lot of data was coming in on
+                infection rate, hospitalization, mortality rates. I downloaded
+                the data provided by Johns Hopkins to try and compare how the United
+                States was doing in comparison to other countries, and how each
+                state was doing in comparison to other.</p>
+              <a class="fa-brands fa-github-square fa-2xl project-link" href="https://github.com/kleiaLaRoe/projects/blob/master/python/patternRecognition/COVID19/COVID19Data.ipynb"></a>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-
     </div>
 
     <div class="container-fluid">
@@ -290,7 +267,7 @@
       <a class="fa-brands fa-linkedin fa-xl footer-link" href="https://www.linkedin.com/in/kleia-laroe/"></a>
       <a class="fa-brands fa-github-square fa-xl footer-link" href="https://github.com/kleiaLaRoe"></a>
       <p class="created-by">Created by: Kleia LaRoe.</p>
-      <p class="last-updated">Last Upated on: Apr. 17, 2022</p>
+      <p class="last-updated">Last Upated on: Apr. 19, 2022</p>
     </div>
 
   </section>
